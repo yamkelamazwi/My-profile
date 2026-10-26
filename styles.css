@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0b1220;
+  color: #dbeafe;
+  font-family: Consolas, monospace;
+  line-height: 1.7;
+}
+
+main {
+  width: min(1000px, 90%);
+  margin: auto;
+}
+
+/* NAVIGATION */
+
+nav {
+  padding: 2rem 0;
+
+  border-bottom: 2px solid #60a5fa;
+
+  margin-bottom: 4rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+
+  list-style: none;
+}
+
+nav a {
+  color: #60a5fa;
+
+  text-decoration: none;
+
+  letter-spacing: 1px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav li:nth-child(1)::before {
+  content: "[01] ";
+  color: #60a5fa;
+}
+
+nav li:nth-child(2)::before {
+  content: "[02] ";
+  color: #60a5fa;
+}
+
+nav li:nth-child(3)::before {
+  content: "[03] ";
+  color: #60a5fa;
+}
+
+nav li:nth-child(4)::before {
+  content: "[04] ";
+  color: #60a5fa;
+}
+
+nav li:nth-child(5)::before {
+  content: "[05] ";
+  color: #60a5fa;
+}
+
+/* HERO */
+
+header {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: clamp(3rem, 10vw, 5rem);
+}
+
+header h2 {
+  color: #60a5fa;
+  margin-top: 1rem;
+}
+
+header p {
+  max-width: 650px;
+  margin-top: 1.5rem;
+}
+
+header a {
+  display: inline-block;
+
+  margin-top: 2rem;
+  margin-right: 1rem;
+
+  color: #60a5fa;
+
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* SECTIONS */
+
+section {
+  padding: 5rem 0;
+}
+
+section h2 {
+  margin-bottom: 2rem;
+}
+
+/* PROJECTS */
+
+article {
+  border: 2px solid #60a5fa;
+
+  padding: 2rem;
+
+  position: relative;
+
+  margin-bottom: 2rem;
+}
+
+article::before {
+  content: "MODULE";
+
+  position: absolute;
+
+  top: -12px;
+  left: 20px;
+
+  background: #0b1220;
+
+  padding: 0 0.5rem;
+
+  color: #60a5fa;
+}
+
+article h3 {
+  margin-bottom: 1rem;
+}
+
+article p {
+  margin-bottom: 1rem;
+}
+
+article a {
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+/* SKILLS */
+
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 1rem;
+
+  list-style: none;
+}
+
+#skills li {
+  border: 2px solid #60a5fa;
+
+  padding: 0.5rem 1rem;
+}
+
+/* ABOUT */
+
+#about {
+  border: 2px solid #60a5fa;
+  padding: 2rem;
+}
+
+/* CONTACT */
+
+#contact ul {
+  list-style: none;
+}
+
+#contact li {
+  margin-bottom: 1rem;
+}
+
+#contact a {
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
