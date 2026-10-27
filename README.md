@@ -8,38 +8,30 @@
 
 ## 🌐 Live Portfolio
 
-**View Portfolio:**  
+🔗 **Portfolio Website**
+
 https://yamkelamazwi.github.io/Yamkela-Mazwi-Frontend-Developer/
 
 ---
 
-## 👋 About
+## 👋 About Me
 
-I'm a self-taught Frontend Developer from South Africa with a passion for building practical and interactive web applications.
+I'm Yamkela Mazwi, a self-taught Frontend Developer from South Africa.
 
-I enjoy learning by building projects, improving my JavaScript skills, and solving problems through clean and responsive user interfaces.
-
-My current focus is strengthening my frontend foundations while creating projects that demonstrate real-world development skills.
+I learn by building projects, solving problems, and continuously improving my JavaScript skills. My focus is creating responsive, accessible, and practical web applications while strengthening my frontend development foundations.
 
 ---
 
-## 🛠 Skills
-
-### Frontend
+## 🛠 Technologies
 
 - HTML5
 - CSS3
 - JavaScript (ES6+)
 - Responsive Design
 - Accessibility
-
-### Currently Improving
-
-- Advanced JavaScript
-- DOM Manipulation
+- Git & GitHub
 - Regular Expressions
-- Text Processing
-- API Integration
+- DOM Manipulation
 
 ---
 
@@ -47,72 +39,84 @@ My current focus is strengthening my frontend foundations while creating project
 
 ### Regex Sandbox
 
-An interactive tool for testing and experimenting with regular expressions.
+An interactive web application for testing and experimenting with regular expressions in real time.
 
-**Features**
+#### Features
 
-- Pattern matching
-- Match visualization
-- Input validation
-- Real-time results
+- Real-time regex testing
+- Match highlighting
+- Pattern validation
+- Interactive interface
 
-**Live Demo**
+#### Links
 
+🔗 Live Demo  
 https://yamkelamazwi.github.io/regex-sandbox/
 
-**Repository**
-
+📂 Repository  
 https://github.com/yamkelamazwi/regex-sandbox
 
 ---
 
-### Markdown Converter
+### Markdown to HTML Converter
 
-A browser-based Markdown-to-HTML converter.
+A browser-based Markdown converter that transforms Markdown syntax into clean HTML output.
 
-**Features**
+#### Features
 
 - Markdown parsing
-- HTML output
+- HTML generation
 - Live preview
-- Text processing
+- Text processing functionality
 
-**Repository**
+#### Links
 
-Add repository link here when available.
+📂 Repository  
+https://github.com/yamkelamazwi/Markdown-to-HTML-converter
 
 ---
 
-## 🎯 Goals
+## 📈 Current Learning Focus
 
-- Continue developing real-world JavaScript applications
-- Build stronger frontend architecture skills
-- Learn modern development workflows
-- Expand into API-driven applications
+- Advanced JavaScript
+- DOM Manipulation
+- Regular Expressions
+- Text Processing
+- API Integration
+- Frontend Architecture
 
 ---
 
 ## 📫 Contact
 
-**Email:**  
+📧 Email  
 urbantoney@gmail.com
 
-**GitHub:**  
+🐙 GitHub  
 https://github.com/yamkelamazwi
+
+🌐 Portfolio  
+https://yamkelamazwi.github.io/Yamkela-Mazwi-Frontend-Developer/
 
 ---
 
-## 📄 License
+## 🎯 Goals
 
-This project is open source and available under the MIT License.
+- Build increasingly complex JavaScript applications
+- Create polished frontend user experiences
+- Expand my portfolio with real-world projects
+- Continue growing as a frontend developer
+
+---
+
+## 📌 Repository Purpose
+
+This repository contains the source code for my personal portfolio website, showcasing my projects, skills, and development journey as I continue building experience in frontend development.
 
 ---
 
 ### Built With
 
-- HTML5
-- CSS3
-- JavaScript
-- GitHub Pages
+HTML • CSS • JavaScript • GitHub Pages
 
-Made with curiosity, persistence, and a commitment to continuous improvement.
+> Learn. Build. Improve.
