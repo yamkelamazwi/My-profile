@@ -93,16 +93,24 @@
 
         <div class="work-explorer">
           <div class="project-list" role="tablist" aria-label="Choose a featured project" aria-orientation="vertical">
-            <button class="project-tab is-active" id="tab-regex" type="button" role="tab" aria-selected="true" aria-controls="project-panel" tabindex="0" data-project="regex">
+            <button class="project-tab is-active" id="tab-github-finder" type="button" role="tab" aria-selected="true" aria-controls="project-panel" tabindex="0" data-project="github-finder">
               <span class="project-number" aria-hidden="true">01</span>
+              <span class="project-tab-copy"><strong>GitHub Profile Finder</strong><small>JavaScript · GitHub API</small></span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+            </button>
+
+            <button class="project-tab" id="tab-regex" type="button" role="tab" aria-selected="false" aria-controls="project-panel" tabindex="-1" data-project="regex">
+              <span class="project-number" aria-hidden="true">02</span>
               <span class="project-tab-copy"><strong>Regex Sandbox</strong><small>JavaScript · Regular expressions</small></span>
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
             </button>
+
             <button class="project-tab" id="tab-markdown" type="button" role="tab" aria-selected="false" aria-controls="project-panel" tabindex="-1" data-project="markdown">
-              <span class="project-number" aria-hidden="true">02</span>
+              <span class="project-number" aria-hidden="true">03</span>
               <span class="project-tab-copy"><strong>Markdown Converter</strong><small>JavaScript · String processing</small></span>
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
             </button>
+
             <p class="project-list-note">Select a project to preview the interface and explore the code.</p>
           </div>
 
@@ -114,29 +122,34 @@
                 <span class="browser-status"><i aria-hidden="true"></i> Live project</span>
               </div>
               <div class="screenshot-wrap">
-                <img class="project-screenshot is-active" src="./assets/regex-sandbox.webp" data-screenshot="regex" width="1440" height="900" alt="Regex Sandbox interface with pattern input, test string and results panels">
-                <img class="project-screenshot" src="./assets/markdown-converter.webp" data-screenshot="markdown" width="1440" height="900" alt="Markdown to HTML Converter with input, raw HTML output and live preview panels" aria-hidden="true">
+                <img class="project-screenshot is-active" src="" data-screenshot="github-finder" width="1440" height="900" alt="GitHub Profile Finder preview showing profile card, stats and repo list">
+                <img class="project-screenshot" src="" data-screenshot="regex" width="1440" height="900" alt="Regex Sandbox interface with pattern input, test string and results panels" aria-hidden="true">
+                <img class="project-screenshot" src="" data-screenshot="markdown" width="1440" height="900" alt="Markdown to HTML Converter with input, raw HTML output and live preview panels" aria-hidden="true">
               </div>
             </div>
 
             <div class="project-details">
               <div class="project-summary">
-                <p class="project-kicker" id="project-kicker">Interactive web tool</p>
-                <h3 id="project-title">Regex Sandbox</h3>
-                <p id="project-description">An interactive environment for testing regular expressions, validating patterns and visualising matches in real time.</p>
+                <p class="project-kicker" id="project-kicker">GitHub API integration</p>
+                <h3 id="project-title">GitHub Profile Finder</h3>
+                <p id="project-description">A responsive GitHub profile search app that lets users look up any GitHub username and view profile details, public stats, and recent repositories using the GitHub API.</p>
               </div>
               <div class="project-meta">
                 <ul class="feature-list" id="project-features" aria-label="Project features">
-                  <li>Real-time pattern matching</li>
-                  <li>Match visualisation</li>
-                  <li>Input validation</li>
+                  <li>Search by username</li>
+                  <li>Profile statistics</li>
+                  <li>Recent repositories</li>
+                  <li>Favorites and history</li>
+                  <li>Mobile-first responsive layout</li>
                 </ul>
+
                 <ul class="stack-list" id="project-stack" aria-label="Technologies used">
-                  <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Regex</li>
+                  <li>HTML</li><li>CSS</li><li>JavaScript</li><li>GitHub API</li><li>Responsive UI</li>
                 </ul>
+
                 <div class="project-links">
-                  <a class="button button-primary" id="live-link" href="https://yamkelamazwi.github.io/regex-sandbox/" target="_blank" rel="noopener noreferrer">Open live demo <span aria-hidden="true">↗</span></a>
-                  <a class="text-link" id="source-link" href="https://github.com/yamkelamazwi/regex-sandbox" target="_blank" rel="noopener noreferrer">View source <span aria-hidden="true">↗</span></a>
+                  <a class="button button-primary" id="live-link" href="https://yamkelamazwi.github.io/GitHub-profile-finder/" target="_blank" rel="noopener noreferrer">Open live demo <span aria-hidden="true">↗</span></a>
+                  <a class="text-link" id="source-link" href="https://github.com/yamkelamazwi/GitHub-profile-finder" target="_blank" rel="noopener noreferrer">View source <span aria-hidden="true">↗</span></a>
                 </div>
               </div>
             </div>
@@ -190,5 +203,7 @@
       <p class="copyright">Designed &amp; built with curiosity · <span id="year">2026</span></p>
     </div>
   </footer>
+
   <script src="main.js"></script>
 </body>
+</html>
